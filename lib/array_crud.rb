@@ -31,6 +31,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  position = array.size - 1
-  array.[position]
+  #position = array.size - 1
+  array[array.size - 1]
 end
